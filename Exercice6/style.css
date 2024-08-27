@@ -9,6 +9,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     width: 240px;
+    background-color: #fff;
 }
 
 #display {
@@ -19,9 +20,22 @@ body {
     margin-bottom: 10px;
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
 button {
     width: 50px;
     height: 50px;
     font-size: 20px;
-    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
 }
